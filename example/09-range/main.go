@@ -15,7 +15,7 @@ func main() {
 
 	m := map[string]string{"a": "A", "b": "B"}
 	for k, v := range m {
-		fmt.Println(k, v) // b 8; a A
+		fmt.Println(k, v)
 	}
 	for k := range m {
 		fmt.Println("key", k) // key a; key b
