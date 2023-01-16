@@ -20,4 +20,7 @@ func main() {
 
 	n2, err := strconv.Atoi("AAA")
 	fmt.Println(n2, err) // 0 strconv.Atoi: parsing "AAA": invalid syntax
+
+	n3 := strconv.Itoa(123)
+	fmt.Println(n3)
 }
